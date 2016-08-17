@@ -223,6 +223,16 @@
 || 
 || 2 persons found!
 || ===================================================
+|| Enter command: || [Command entered:  add Tang Yew Siang p/98765432 e/happyhour@gmail.com]
+|| New person added: Tang Yew Siang, Phone: 98765432, Email: happyhour@gmail.com
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 	1. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+|| 	2. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	3. Tang Yew Siang  Phone Number: 98765432  Email: happyhour@gmail.com
+|| 
+|| 3 persons found!
+|| ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
 || ===================================================

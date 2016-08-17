@@ -90,6 +90,13 @@
   # listing indexes get updated on next request
   delete 1
   list
+  
+##########################################################
+# Additional tests (TYS)
+# Tests for add command
+##########################################################  
+  add Tang Yew Siang p/98765432 e/happyhour@gmail.com
+  list
 
 ##########################################################
 # test clear command
