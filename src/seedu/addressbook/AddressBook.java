@@ -381,7 +381,11 @@ public class AddressBook {
      */
     private static String[] splitCommandWordAndArgs(String rawUserInput) {
         final String[] split =  rawUserInput.trim().split("\\s+", 2);
-        return split.length == 2 ? split : new String[] { split[0] , "" }; // else case: no parameters
+        return split.length == 2 ? split : convertSingleStringToStringArray(split); // else case: no parameters
+    }
+    // T2A2 : 
+    private static String[] convertSingleStringToStringArray(String[] input) {
+    	return new String[] { input[0] , "" };
     }
 
     /**
